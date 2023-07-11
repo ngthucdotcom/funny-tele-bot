@@ -1,20 +1,22 @@
 {
-  "name": "logger-function",
+  "name": "funny-tele-bot",
   "version": "1.0.0",
-  "description": "Log function for Logger",
+  "description": "A funny telegram bot",
   "author": {
     "name": "Nguyen Thuc",
     "email": "contact@ngthuc.com",
     "homepage": "https://ngthuc.com/"
   },
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "express": "^4.17.1",
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "telegraf": "^4.12.2"
   },
   "devDependencies": {
     "cors": "^2.8.5",
@@ -22,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngthucdotcom/nodejs-server.git"
+    "url": "git+https://github.com/ngthucdotcom/funny-tele-bot.git"
   },
   "keywords": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ngthucdotcom/nodejs-server/issues"
+    "url": "https://github.com/ngthucdotcom/funny-tele-bot/issues"
   },
-  "homepage": "https://github.com/ngthucdotcom/nodejs-server#readme"
+  "homepage": "https://github.com/ngthucdotcom/funny-tele-bot#readme"
 }
