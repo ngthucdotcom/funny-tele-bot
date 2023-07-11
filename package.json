@@ -1,0 +1,33 @@
+{
+  "name": "logger-function",
+  "version": "1.0.0",
+  "description": "Log function for Logger",
+  "author": {
+    "name": "Nguyen Thuc",
+    "email": "contact@ngthuc.com",
+    "homepage": "https://ngthuc.com/"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngthucdotcom/nodejs-server.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngthucdotcom/nodejs-server/issues"
+  },
+  "homepage": "https://github.com/ngthucdotcom/nodejs-server#readme"
+}
